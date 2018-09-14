@@ -20,6 +20,7 @@
   width: 500px;
   height: 380px;
   margin: 10px;
+  border-radius: 10px;
 }
 
 #supp-text {
