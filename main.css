@@ -1,0 +1,41 @@
+#main-head {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#main-text {
+  text-align: center;
+}
+
+.column {
+  text-align: center;
+}
+
+#project-header, #skills-header {
+  text-align: center;
+  font-size: 25px; 
+}
+
+#supp-store, #game-it, #strongr-app, #blackjack {
+  width: 500px;
+  height: 380px;
+  margin: 10px;
+}
+
+#supp-text {
+  text-align: center;
+}
+
+#all-cards {
+  justify-content: center;
+}
+
+#blackjack-img {
+  width: 425px;
+  height: 220px;
+}
+
+.table {
+  overflow-x: auto; 
+  margin: 0 auto;
+}
