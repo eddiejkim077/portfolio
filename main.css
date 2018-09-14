@@ -39,3 +39,8 @@
   overflow-x: auto; 
   margin: 0 auto;
 }
+
+#gh-logo {
+  width: 100px;
+  height: 40px;
+}
