@@ -45,3 +45,27 @@
   width: 100px;
   height: 40px;
 }
+
+#bulma-logo {
+  width: 160px;
+  height: 30px;
+}
+
+.footer {
+  height: 10px;
+}
+
+#linkedin-logo {
+  margin-top: 5px;
+}
+
+#skills-text {
+  text-align: center;
+  width: 330px;
+  margin: 0 auto
+}
+
+#laptop-img {
+  width: 70px;
+  height: 70px;
+}
