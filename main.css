@@ -15,6 +15,11 @@
   text-align: center;
   font-size: 25px; 
 }
+#project-header {
+  text-align: center;
+  font-size: 25px; 
+  margin-top: 40px;
+}
 
 #supp-store, #game-it, #strongr-app, #blackjack {
   width: 500px;
@@ -68,4 +73,13 @@
 #laptop-img {
   width: 70px;
   height: 70px;
+}
+
+#nav-item {
+  margin-bottom: 22px;
+  justify-content: center;
+}
+
+.nav-a {
+  width: 145px;
 }
