@@ -12,13 +12,12 @@
   text-align: center;
 }
 
-#project-header, #skills-header {
+#skills-header {
   text-align: center;
   font-size: 25px; 
 }
 #project-header {
   text-align: center;
-  font-size: 65px;
   margin-top: 40px;
 }
 
@@ -47,7 +46,7 @@
 
 .footer {
   padding-bottom: 3px;
-  padding-top: 6px;
+  padding-top: 11px;
 }
 
 #linkedin-logo {
@@ -57,7 +56,8 @@
 #skills-text {
   text-align: center;
   width: 330px;
-  margin: 0 auto
+  margin: 0 auto;
+  padding-top: 5px;
 }
 
 #laptop-img {
@@ -81,7 +81,6 @@
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  background: url('https://i.imgur.com/LovGaJC.jpg');
 }
 
 .ParallaxContainer {
@@ -91,6 +90,10 @@
   height: 100vh;
   transform: translateZ(-1px) scale(2);
   z-index: -1;
+  background: 
+  url('https://i.imgur.com/LovGaJC.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .ContentContainer {
@@ -105,7 +108,7 @@
 }
 
 #about-box {
-  margin-top: 50px;
+  margin-top: -50px;
 }
 
 .Content {
@@ -119,24 +122,45 @@
 .tabs {
   background-color: #FAFAFA;
   border-bottom: 3px solid black;
-  border-top: 3px solid black;
 }
 
 #about-title {
-  border-bottom: 1px solid black;
   display: inline;
   padding-bottom: 0px;
 }
 
+#hero-text {
+  max-width: 510px;
+  margin: auto;
+}
+
+#top-section {
+  width: 100%;
+}
+
+#top-section-header {
+  margin-top: 30px;
+}
+
+#footer-icons {
+  justify-content: center;
+}
+
+.code-icon {
+  width: 30px;
+  height: 30px;
+  padding-top: 4px;
+}
+
 #tech-text {
-  font-size: 65px;
+  display: inline;
 }
 
-#skills-header {
-  padding-top: 8px;
-  padding-bottom: 0px;
+.tech-columns {
+  max-width: 160px;
 }
 
-#footer-contact {
-  text-align: center;
+#tech-columns-center { 
+  justify-content: center;
+  padding-top: 5px;
 }

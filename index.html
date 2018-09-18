@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -8,7 +9,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-125822576-1');
   </script>
   <meta charset="utf-8">
@@ -22,61 +22,52 @@
 <body>
   <div class="MainContainer">
     <div class="ParallaxContainer">
-      <section class="hero is-light is-bold">
-        <div class="hero-head">
-        </div>
-        <!-- Hero content: will be in the middle -->
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <section class="column">
-                <h3 class="title" id="skills-header">
-                  <img id="laptop-img" src="https://i.imgur.com/7RkrQya.png">
-                </h3>
-                <h3 class="subtitle" id="skills-text">I am a developer who enjoys creating simple, and clean looking projects.  </h3>
-              </section>
+      <section id="top-section">
+        <div>
+          <div id="top-section-header" class="container has-text-centered">
+            <h1 class="title">
+              Full-Stack Web Developer
+            </h1>
+            <h2 id="hero-text" class="subtitle">
+              Hello, my name is
+              <strong>Eddie Kim</strong>! 
+              <br>
+              When I realized I was passionate about technology I began the journey to venture into web development.
+            </h2>
           </div>
         </div>
       </section>
     </div>
     <div class="ContentContainer">
-      <nav class="tabs">
-        <div class="container">
-          <ul id="nav-item" class="columns">
-            <li class="nav-a is-active column is-3">
-              <a>About Me</a>
-            </li>
-            <li class="nav-a level-item column is-3">
-              <a>Projects</a>
-            </li>
-            <li class="nav-a level-item column is-3">
-                <a>Technology</a>
-              </li>
-            <li class="nav-a level-item column is-3">
-              <a>Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <nav class="tabs">
+            <div class="container">
+              <ul id="nav-item" class="columns">
+                <li class="nav-a is-active column is-3">
+                  <a>About Me</a>
+                </li>
+                <li class="nav-a level-item column is-3">
+                  <a>Projects</a>
+                </li>
+                <li class="nav-a level-item column is-3">
+                  <a>Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
       <div class="Content">
-        <h3 class="title" id="project-header">Projects</h3>
-        <div id="all-cards" class="columns is-multiline container is-fluid">
-          <div class="column is-6" id="supp-store">
-            <img src="https://i.imgur.com/Z9n65vz.png">
-          </div>
-          <div class="column is-6" id="game-it">
-            <img src="https://i.imgur.com/HAwq7dA.png">
-          </div>
-          <div class="column is-6" id="strongr-app">
-            <img src="https://i.imgur.com/icKpjLr.png">
-          </div>
-          <div class="column is-6" id="blackjack">
-            <img id="blackjack-img" src="https://i.imgur.com/YrR2tvC.png">
-          </div>
-        </div>
-        <section class="column box">
-            <h1 id="tech-text" class="title level-item">What I Use</h1>
+        <div id="about-box" class="columns box container is-fluid section">
+          <section class="column">
+            <i class="fas fa-code"></i>
+            <h1 id="about-title" class="title level-item">About Me</h1>
+            <i class="fas fa-code"></i>
+            <h3 class="subtitle" id="skills-text">I am a developer who enjoys creating simple, and clean looking projects. I find joy in trying to improve my skills daily, and believe we all have the capability of creating something beautiful. </h3>
+          </section>
+          <section class="column">
+            <i class="fas fa-laptop"></i>
+            <h1 id="tech-text" class="title">Technology</h1>
+            <i class="fas fa-laptop"></i>
             <div class="columns subtitle">
-              <div class="column">
+              <div class="column is-6">
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>JavaScript</p>
@@ -84,7 +75,7 @@
                 <p>MongoDB</p>
                 <p>Express.js</p>
               </div>
-              <div class="column">
+              <div class="column is-6">
                 <p>Heroku</p>
                 <p>Node.js</p>
                 <p>Git</p>
@@ -94,20 +85,100 @@
               </div>
             </div>
           </section>
+        </div>
+        <h1 class="title" id="project-header">My Work</h1>
+        <div id="all-cards" class="columns is-multiline container is-fluid">
+          <div class="card column is-5" id="supp-store">
+            <div class="card-content">
+              <p class="title">
+                HardGainer Supplements
+              </p>
+              <p class="subtitle" id="supp-text">
+                <img src="https://i.imgur.com/Z9n65vz.png">
+              </p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  Hosted on
+                  <a href="https://supp-store.herokuapp.com" target="_blank">Heroku</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+          <div class="card column is-5" id="game-it">
+            <div class="card-content">
+              <p class="title">
+                Game.it
+              </p>
+              <p class="subtitle" id="supp-text">
+                <img src="https://i.imgur.com/HAwq7dA.png">
+              </p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  Hosted on
+                  <a href="https://game-it.herokuapp.com/" target="_blank">Heroku</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+          <div class="card column is-5" id="strongr-app">
+            <div class="card-content">
+              <p class="title">
+                Strongr App
+              </p>
+              <p class="subtitle" id="supp-text">
+                <img src="https://i.imgur.com/icKpjLr.png">
+              </p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  Hosted on
+                  <a href="https://strongrdb.herokuapp.com/" target="_blank">Heroku</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+          <div class="card column is-5" id="blackjack">
+            <div class="card-content">
+              <p class="title">
+                BlackJack
+              </p>
+              <p class="subtitle" id="supp-text">
+                <img id="blackjack-img" src="https://i.imgur.com/YrR2tvC.png">
+              </p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  Hosted on
+                  <a href="https://eddiejkim077.github.io/blackjack/" target="_blank">GH Pages</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+        </div>
         <footer class="footer">
           <div class="content has-text-centered">
-            <div class="columns">
-              <div class="column">
-                <a href="https://www.linkedin.com/in/edwardjkim077" target="_blank">
-                  <img id="linkedin-logo" src="https://i.imgur.com/Fg9i7Kd.png?1">
+            <div id="footer-icons" class="columns">
+              <div class="column is-1">
+                <a class="button is-info is-outlined" href="https://www.linkedin.com/in/edwardjkim077" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
                 </a>
               </div>
-              <div class="column">
-                <a href="https://github.com/eddiejkim077" target="_blank">
-                  <img id="gh-logo" src="https://i.imgur.com/gPxGAUu.png">
+              <div class="column is-1">
+                <a class="button is-info is-outlined" href="https://github.com/eddiejkim077" target="_blank">
+                  <i class="fab fa-github"></i>
                 </a>
               </div>
-              <div class="column">Resume</div>
+              <div class="column is-1">
+                <a class="button is-info is-outlined" href=# target="_blank">
+                  <i class="fas fa-file-download"></i>
+                </a>
+              </div>
             </div>
             <p>
               Crafted with joy, by Edward Kim © 2018.
