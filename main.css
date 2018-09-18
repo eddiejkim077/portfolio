@@ -21,24 +21,12 @@
   margin-top: 40px;
 }
 
-#supp-store, #game-it, #strongr-app, #blackjack {
-  width: 500px;
-  height: 380px;
-  margin: 10px;
-  border-radius: 10px;
-}
-
 #supp-text {
   text-align: center;
 }
 
 #all-cards {
   justify-content: center;
-}
-
-#blackjack-img {
-  width: 425px;
-  height: 220px;
 }
 
 .table {
@@ -57,7 +45,8 @@
 }
 
 .footer {
-  height: 10px;
+  padding-bottom: 3px;
+  padding-top: 6px;
 }
 
 #linkedin-logo {
@@ -78,8 +67,60 @@
 #nav-item {
   margin-bottom: 22px;
   justify-content: center;
+  border-bottom: none;
 }
 
 .nav-a {
   width: 145px;
+}
+
+.MainContainer {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.ParallaxContainer {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  height: 100vh;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+
+.ContentContainer {
+  display: block;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.hero {
+  width: 100%;
+}
+
+#about-box {
+  margin-top: -50px;
+}
+
+.Content {
+  padding-top: 1px;
+}
+
+.title {
+  padding-bottom: 12px;
+}
+
+.tabs {
+  background-color: #FAFAFA;
+  border-bottom: 3px solid black;
+}
+
+#about-title {
+  border-bottom: 1px solid black;
+  display: inline;
+  padding-bottom: 0px;
 }

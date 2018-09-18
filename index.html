@@ -20,172 +20,175 @@
 </head>
 
 <body>
-  <section class="hero is-light is-bold is-medium">
-    <div class="hero-head">
-      <p>Icon Here</p>
+  <div class="MainContainer">
+    <div class="ParallaxContainer">
+      <section class="hero">
+        <div class="hero-head">
+        </div>
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body" background="https://i.imgur.com/LovGaJC.jpg">
+          <div class="container has-text-centered">
+            <h1 class="title">
+              Full-Stack Web Developer
+            </h1>
+            <h2 class="subtitle">
+              Hello! My name is
+              <strong>Eddie Kim</strong>, and I love how a blank slate can turn into something beautiful.
+            </h2>
+          </div>
+        </div>
+      </section>
     </div>
-    <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <h1 class="title">
-          Full-Stack Web Developer
-        </h1>
-        <h2 class="subtitle">
-          Hello! My name is
-          <strong>Eddie Kim</strong>, and I love how a blank slate can turn into something beautiful.
-        </h2>
+    <div class="ContentContainer">
+        <nav class="tabs">
+            <div class="container">
+              <ul id="nav-item" class="columns">
+                <li class="nav-a is-active column is-3">
+                  <a>About Me</a>
+                </li>
+                <li class="nav-a level-item column is-3">
+                  <a>Projects</a>
+                </li>
+                <li class="nav-a level-item column is-3">
+                  <a>Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      <div class="Content">
+        <div id="about-box" class="columns box container is-fluid section">
+          <section class="column">
+            <h1 id="about-title" class="title level-item">About Me</h1>
+            <h3 class="title" id="skills-header">
+              <img id="laptop-img" src="https://i.imgur.com/7RkrQya.png">
+            </h3>
+            <h3 class="subtitle" id="skills-text">I am a developer who enjoys creating simple, and clean looking projects.</h3>
+          </section>
+          <section class="column">
+            <h1 id="tech-text" class="title level-item">Technology</h1>
+            <div class="columns subtitle">
+              <div class="column">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>React.js</p>
+                <p>MongoDB</p>
+                <p>Express.js</p>
+              </div>
+              <div class="column">
+                <p>Heroku</p>
+                <p>Node.js</p>
+                <p>Git</p>
+                <p>GitHub</p>
+                <p>Ruby</p>
+                <p>Rails</p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <h3 class="title" id="project-header">My Work</h3>
+        <div id="all-cards" class="columns is-multiline container is-fluid">
+          <div class="card column is-5" id="supp-store">
+            <div class="card-content">
+              <p class="title">
+                HardGainer Supplements
+              </p>
+              <p class="subtitle" id="supp-text">
+                <img src="https://i.imgur.com/Z9n65vz.png">
+              </p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  Hosted on
+                  <a href="https://supp-store.herokuapp.com" target="_blank">Heroku</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+          <div class="card column is-5" id="game-it">
+            <div class="card-content">
+              <p class="title">
+                Game.it
+              </p>
+              <p class="subtitle" id="supp-text">
+                <img src="https://i.imgur.com/HAwq7dA.png">
+              </p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  Hosted on
+                  <a href="https://game-it.herokuapp.com/" target="_blank">Heroku</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+          <div class="card column is-5" id="strongr-app">
+            <div class="card-content">
+              <p class="title">
+                Strongr App
+              </p>
+              <p class="subtitle" id="supp-text">
+                <img src="https://i.imgur.com/icKpjLr.png">
+              </p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  Hosted on
+                  <a href="https://strongrdb.herokuapp.com/" target="_blank">Heroku</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+          <div class="card column is-5" id="blackjack">
+            <div class="card-content">
+              <p class="title">
+                BlackJack
+              </p>
+              <p class="subtitle" id="supp-text">
+                <img id="blackjack-img" src="https://i.imgur.com/YrR2tvC.png">
+              </p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  Hosted on
+                  <a href="https://eddiejkim077.github.io/blackjack/" target="_blank">GH Pages</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="content has-text-centered">
+            <div class="columns">
+              <div class="column">
+                <a href="https://www.linkedin.com/in/edwardjkim077" target="_blank">
+                  <img id="linkedin-logo" src="https://i.imgur.com/Fg9i7Kd.png?1">
+                </a>
+              </div>
+              <div class="column">
+                <a href="https://github.com/eddiejkim077" target="_blank">
+                  <img id="gh-logo" src="https://i.imgur.com/gPxGAUu.png">
+                </a>
+              </div>
+              <div class="column">Resume</div>
+            </div>
+            <p>
+              Crafted with joy, by Edward Kim © 2018.
+            </p>
+            <a href="https://bulma.io/">
+              <img id="bulma-logo" src="https://i.imgur.com/0X7O9lF.png">
+            </a>
+          </div>
       </div>
+      </footer>
     </div>
+  </div>
+  </div>
 
-    <!-- Hero footer: will stick at the bottom -->
-    <div class="hero-foot">
-      <nav class="tabs">
-        <div class="container">
-          <ul id="nav-item" class="columns">
-            <li class="nav-a is-active column is-3">
-              <a>About Me</a>
-            </li>
-            <li class="nav-a level-item column is-3">
-              <a>Projects</a>
-            </li>
-            <li class="nav-a level-item column is-3">
-              <a>Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </section>
-  <div class="columns box container is-fluid section">
-    <section class="column">
-      <h1 class="title level-item">About Me</h1>
-      <h3 class="title" id="skills-header">
-        <img id="laptop-img" src="https://i.imgur.com/7RkrQya.png">
-      </h3>
-      <h3 class="subtitle" id="skills-text">I am a developer who enjoys creating simple, and clean looking projects.</h3>
-    </section>
-    <section class="column">
-      <h1 id="tech-text" class="title level-item">Technology</h1>
-      <div class="columns subtitle">
-        <div class="column">
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>JavaScript</p>
-          <p>React.js</p>
-          <p>MongoDB</p>
-          <p>Express.js</p>
-        </div>
-        <div class="column">
-          <p>Heroku</p>
-          <p>Node.js</p>
-          <p>Git</p>
-          <p>GitHub</p>
-          <p>Ruby</p>
-          <p>Rails</p>
-        </div>
-      </div>
-    </section>
-  </div>
-  <h3 class="title" id="project-header">Projects</h3>
-  <div id="all-cards" class="columns is-multiline container is-fluid">
-    <div class="card column is-6" id="supp-store">
-      <div class="card-content">
-        <p class="title">
-          <img src="https://i.imgur.com/Z9n65vz.png">
-        </p>
-        <p class="subtitle" id="supp-text">
-          HardGainer Supplements
-        </p>
-      </div>
-      <footer class="card-footer">
-        <p class="card-footer-item">
-          <span>
-            Hosted on
-            <a href="https://supp-store.herokuapp.com" target="_blank">Heroku</a>
-          </span>
-        </p>
-      </footer>
-    </div>
-    <div class="card column is-6" id="game-it">
-      <div class="card-content">
-        <p class="title">
-          <img src="https://i.imgur.com/HAwq7dA.png">
-        </p>
-        <p class="subtitle" id="supp-text">
-          Game.it
-        </p>
-      </div>
-      <footer class="card-footer">
-        <p class="card-footer-item">
-          <span>
-            Hosted on
-            <a href="https://game-it.herokuapp.com/" target="_blank">Heroku</a>
-          </span>
-        </p>
-      </footer>
-    </div>
-    <div class="card column is-6" id="strongr-app">
-      <div class="card-content">
-        <p class="title">
-          <img src="https://i.imgur.com/icKpjLr.png">
-        </p>
-        <p class="subtitle" id="supp-text">
-          Strongr App
-        </p>
-      </div>
-      <footer class="card-footer">
-        <p class="card-footer-item">
-          <span>
-            Hosted on
-            <a href="https://strongrdb.herokuapp.com/" target="_blank">Heroku</a>
-          </span>
-        </p>
-      </footer>
-    </div>
-    <div class="card column is-6" id="blackjack">
-      <div class="card-content">
-        <p class="title">
-          <img id="blackjack-img" src="https://i.imgur.com/YrR2tvCl.png">
-        </p>
-        <p class="subtitle" id="supp-text">
-          BlackJack
-        </p>
-      </div>
-      <footer class="card-footer">
-        <p class="card-footer-item">
-          <span>
-            Hosted on
-            <a href="https://eddiejkim077.github.io/blackjack/" target="_blank">GH Pages</a>
-          </span>
-        </p>
-      </footer>
-    </div>
-  </div>
-  <div class="box container is-fluid">
-    <div class="columns">
-      <div class="column">
-        <a href="https://www.linkedin.com/in/edwardjkim077" target="_blank">
-          <img id="linkedin-logo" src="https://i.imgur.com/Fg9i7Kd.png?1">
-        </a>
-      </div>
-      <div class="column">
-        <a href="https://github.com/eddiejkim077" target="_blank">
-          <img id="gh-logo" src="https://i.imgur.com/gPxGAUu.png">
-        </a>
-      </div>
-      <div class="column">Resume</div>
-    </div>
-  </div>
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        Crafted with joy, by Edward Kim © 2018.
-      </p>
-      <a href="https://bulma.io/">
-        <img id="bulma-logo" src="https://i.imgur.com/0X7O9lF.png">
-      </a>
-    </div>
-  </footer>
 </body>
 
 </html>
