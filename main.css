@@ -18,7 +18,7 @@
 }
 #project-header {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 #supp-text {
@@ -168,4 +168,53 @@
   border-radius: 50%;
   height: 125px;
   width: 125px;
+}
+
+.wrapper {
+  font-family: sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.project-image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  color: black;
+  transform: translate(-50%, -50%);
+  -ms-transform:translate(-50%, -50%);
+  white-space:nowrap;
+  overflow: hidden;
+}
+
+.overlay-content a {
+  font-size: 24px; 
+  display: block;
+  text-align: center;
+}
+
+.overlay {
+  opacity: 0;
+}
+
+.wrapper:hover img{
+  opacity: .1;
+}
+
+.wrapper:hover .overlay{
+  opacity: 1;
+}
+
+.overlay-button {
+  max-height: 40px;
+  max-width: 139px;
+  margin: 0 auto;
+  line-height: 24px;
 }
