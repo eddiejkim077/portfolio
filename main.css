@@ -144,12 +144,11 @@
 
 #footer-icons {
   justify-content: center;
+  padding-top:  5px;
 }
 
 .code-icon {
-  width: 30px;
-  height: 30px;
-  padding-top: 4px;
+  padding: 20px;
 }
 
 #tech-text {
@@ -163,4 +162,10 @@
 #tech-columns-center { 
   justify-content: center;
   padding-top: 5px;
+}
+
+#my-image {
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
 }
