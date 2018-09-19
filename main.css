@@ -18,7 +18,8 @@
 }
 #project-header {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 35px;
+  margin-bottom: 30px;
 }
 
 #supp-text {
@@ -122,6 +123,7 @@
 .tabs {
   background-color: #FAFAFA;
   border-bottom: 3px solid black;
+  height: 60px;
 }
 
 #about-title {
@@ -165,9 +167,11 @@
 }
 
 #my-image {
+  border: 6px solid white;
   border-radius: 50%;
-  height: 125px;
-  width: 125px;
+  height: 190px;
+  width: 190px;
+  margin-top: 20px;
 }
 
 .wrapper {
