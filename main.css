@@ -218,3 +218,7 @@
   margin: 0 auto;
   line-height: 24px;
 }
+
+#vl {
+  border-left: 1px solid black;
+}
